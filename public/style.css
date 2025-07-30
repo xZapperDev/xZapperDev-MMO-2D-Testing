@@ -45,7 +45,6 @@ body {
     color: var(--accent-blue);
     text-decoration: none;
     font-weight: 400;
-    /* Usando el peso de fuente especificado */
     padding: 12px 30px;
     border: 2px solid var(--accent-blue);
     border-radius: 25px;
@@ -61,7 +60,6 @@ body {
 
 #gameCanvas {
     background: var(--game-bg);
-    border-radius: 15px;
     box-shadow: 0 12px 40px var(--shadow-blue);
     display: none;
     margin: 0 auto;
@@ -78,7 +76,6 @@ body {
     margin: 10px;
     font-size: 1.1rem;
     font-weight: 400;
-    /* Usando el peso de fuente especificado */
     color: var(--text-color-light);
     user-select: none;
     text-shadow: 0 0 8px var(--accent-blue);
@@ -127,7 +124,6 @@ body {
     display: none;
     color: white;
     font-family: "Share Tech Mono", monospace;
-    /* Aplicado también al menú para consistencia */
     z-index: 1001;
     user-select: none;
     transition: opacity 0.3s ease;
