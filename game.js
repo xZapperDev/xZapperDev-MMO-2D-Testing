@@ -6,7 +6,7 @@ const passport = require('./auth');
 const fs = require('fs');
 const app = express();
 
-const PORT = 3000 || process.env.PORT;
+const PORT = 80 || process.env.PORT;
 
 app.use(session({
     secret: 'andjsadnjasndas',
